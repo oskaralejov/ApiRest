@@ -42,7 +42,7 @@ public class SwaggerConfig {
 
         return new ApiInfo(
                 "Spring boot Tasks API REST",
-                "library apis rest docs",
+                "api rest para agendar tareas",
                 "1.0",
                 "http://www.google.com",
                 new Contact("Oskar","http://www.google.com","oskaralejandrovelilla@gmail.com"),

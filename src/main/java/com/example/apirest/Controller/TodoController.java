@@ -91,6 +91,7 @@ public class TodoController {
         Task updateTask = todoRepository.findById(id).get();
         updateTask.setTitle(task.getTitle());
         updateTask.setDescription(task.getDescription());
+        updateTask.setEstado(task.getEstado());
 
         todoRepository.save(updateTask);
 
